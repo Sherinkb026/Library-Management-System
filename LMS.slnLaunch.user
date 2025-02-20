@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "LMSAPI\\LMSAPI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "LMSFrontend\\LMSFrontend.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
