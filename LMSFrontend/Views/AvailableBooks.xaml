@@ -7,7 +7,10 @@
         xmlns:viewModel="clr-namespace:LMSFrontend.ViewModel" 
         xmlns:sys="clr-namespace:System.Collections.ObjectModel;assembly=WindowsBase" 
         mc:Ignorable="d"
-        Title="AvailableBooks" Height="450" Width="800">
+        Title="AvailableBooks" Height="450" Width="800"
+        WindowState="Maximized"
+        WindowStyle="SingleBorderWindow"
+        ResizeMode="NoResize">
 
 
     

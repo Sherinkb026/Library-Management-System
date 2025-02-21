@@ -74,3 +74,4 @@ C:\Programmer\CYPHERON TECHNOLOGIES\repos\LMS\LMSFrontend\obj\Debug\net8.0-windo
 C:\Programmer\CYPHERON TECHNOLOGIES\repos\LMS\LMSFrontend\obj\Debug\net8.0-windows\LMSFrontend.pdb
 C:\Programmer\CYPHERON TECHNOLOGIES\repos\LMS\LMSFrontend\obj\Debug\net8.0-windows\LMSFrontend.genruntimeconfig.cache
 C:\Programmer\CYPHERON TECHNOLOGIES\repos\LMS\LMSFrontend\obj\Debug\net8.0-windows\ref\LMSFrontend.dll
+C:\Programmer\CYPHERON TECHNOLOGIES\repos\LMS\LMSFrontend\obj\Debug\net8.0-windows\LMSFrontend.sourcelink.json
