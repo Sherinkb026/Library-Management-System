@@ -21,10 +21,13 @@ namespace LMSFrontend.Views
     /// </summary>
     public partial class UserInfoWindow : Window
     {
+
         public UserInfoWindow(Books selectedBook)
         {
             InitializeComponent();
             DataContext = new UserInfoViewModel(selectedBook);
         }
+
+
     }
 }

@@ -20,11 +20,25 @@ namespace LMSFrontend.Views
     /// </summary>
     public partial class AvailableBooks : Window
     {
+
+        private AvailableBooksViewModel viewModel;
+
+
+
         public AvailableBooks()
         {
             InitializeComponent();
-            var viewModel = new AvailableBooksViewModel();
+            viewModel = new AvailableBooksViewModel();
             DataContext = viewModel;
+            viewModel.LoadAvailableBooks();
+        }
+
+
+
+
+        protected override void OnActivated(EventArgs e)
+        {
+            base.OnActivated(e);
             viewModel.LoadAvailableBooks();
         }
     }

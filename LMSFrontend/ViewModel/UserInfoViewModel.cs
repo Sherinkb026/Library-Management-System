@@ -3,6 +3,7 @@ using System.Text;
 using System.Windows;
 using LMSAPI.Models;
 using LMSFrontend.Commands;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Newtonsoft.Json;
 
 
@@ -22,6 +23,8 @@ namespace LMSFrontend.ViewModel
         private string _username;
 
         private string _email;
+
+        public event Action BookBorrowed;
         
 
 
@@ -149,6 +152,12 @@ namespace LMSFrontend.ViewModel
 
                 var borrowResponse = await _httpClient.PostAsync(_apiBaseUrlBorrow, borrowJson);
 
+                if (SelectedBook != null && SelectedBook.AvailableCopies > 0)
+                {
+                    SelectedBook.AvailableCopies--;
+                    OnPropertyChanged(nameof(SelectedBook));
+                }
+
 
                 if (!borrowResponse.IsSuccessStatusCode)
                 {
@@ -159,6 +168,7 @@ namespace LMSFrontend.ViewModel
                 else
                 {
                     MessageBox.Show("Book Borrowed successfully","Success", MessageBoxButton.OK,MessageBoxImage.Information);
+                    BookBorrowed?.Invoke();
                     CloseCurrentWindow();
                 }
 

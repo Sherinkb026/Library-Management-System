@@ -14,7 +14,9 @@
 
 
     <Grid Background="#F5F5F5">
-        <Image Source="C:\Programmer\CYPHERON TECHNOLOGIES\repos\LMS\LMSFrontend\Images\high-angle-education-day-concept.jpg" Stretch="UniformToFill" Opacity="0.7"/>
+        <Image Source="C:\Programmer\CYPHERON TECHNOLOGIES\repos\LMS\LMSFrontend\Images\high-angle-education-day-concept.jpg" 
+               Stretch="UniformToFill" 
+               Opacity="0.7"/>
         <Grid>
 
             <Grid.RowDefinitions>
@@ -24,22 +26,33 @@
             </Grid.RowDefinitions>
 
             <!-- Header Section -->
-            <Grid Grid.Row="0" HorizontalAlignment="Center" Margin="50">
+            <Grid Grid.Row="0" 
+                  HorizontalAlignment="Center" 
+                  Margin="50">
                 <TextBlock Text="📚 AVAILABLE BOOKS"
-                   FontSize="35" 
-                   FontWeight="Bold"
-                   Foreground="#FF7518"
-                   HorizontalAlignment="Center"/>
+                           FontSize="35" 
+                           FontWeight="Bold"
+                           Foreground="#FF7518"
+                           HorizontalAlignment="Center"/>
             </Grid>
 
             <!-- Column Headings -->
-            <Grid Grid.Row="1" HorizontalAlignment="Center" Width="758" >
-                <Border  Background="#FFF5EE" CornerRadius="10" Margin="0" Padding="10" 
-            BorderBrush="#D3D3D3" BorderThickness="1" >
+            <Grid Grid.Row="1" 
+                  HorizontalAlignment="Center" 
+                  Width="758" >
+                <Border  Background="#FFF5EE" 
+                         CornerRadius="10" 
+                         Margin="0" 
+                         Padding="10" 
+                         BorderBrush="#D3D3D3" 
+                         BorderThickness="1" >
 
                     <Border.Effect>
-                        <DropShadowEffect BlurRadius="8" ShadowDepth="3" Opacity="0.3"/>
+                        <DropShadowEffect BlurRadius="8" 
+                                          ShadowDepth="3" 
+                                          Opacity="0.3"/>
                     </Border.Effect>
+                    
                     <StackPanel>
                         <Grid >
 
@@ -49,150 +62,177 @@
                                 <ColumnDefinition Width="Auto"/>
                                 <ColumnDefinition Width="Auto"/>
                             </Grid.ColumnDefinitions>
-                            <StackPanel Orientation="Horizontal" Background="#F28C28" Width="700" HorizontalAlignment="Center" VerticalAlignment="Center" >
-                                <TextBlock HorizontalAlignment="Center" Grid.Column="0" Text="BOOK TITLE" FontWeight="Bold" Width="200" Foreground="#FFFFFF" Margin="20" FontSize="15"/>
-                                <TextBlock HorizontalAlignment="Center" Grid.Column="1" Text="AUTHOR" FontWeight="Bold" Width="150" Foreground="#FFFFFF" Margin="10 20 0 10" FontSize="15"/>
-                                <TextBlock HorizontalAlignment="Center" Grid.Column="2" Text="AVAILABLE COPIES" FontWeight="Bold" Width="150" Foreground="#FFFFFF" Margin="-20 20 20 20" FontSize="15"/>
-                                <TextBlock HorizontalAlignment="Center" Grid.Column="3" Text="ACTION" FontWeight="Bold" Width="85" Foreground="#FFFFFF" Margin="20 20 20 20" FontSize="15"/>
+                            <StackPanel Orientation="Horizontal" 
+                                        Background="#F28C28" 
+                                        Width="700" 
+                                        HorizontalAlignment="Center" 
+                                        VerticalAlignment="Center"
+                                        Margin="10">
+                                
+                                <TextBlock HorizontalAlignment="Center" 
+                                           Grid.Column="0" 
+                                           Text="BOOK TITLE" 
+                                           FontWeight="Bold" 
+                                           Width="200" 
+                                           Foreground="#FFFFFF" 
+                                           Margin="20" 
+                                           FontSize="15"/>
+                                
+                                <TextBlock HorizontalAlignment="Center" 
+                                           Grid.Column="1" 
+                                           Text="AUTHOR" 
+                                           FontWeight="Bold" 
+                                           Width="150" 
+                                           Foreground="#FFFFFF" 
+                                           Margin="-20 20 0 10" 
+                                           FontSize="15"/>
+                                
+                                <TextBlock HorizontalAlignment="Center" 
+                                           Grid.Column="2" 
+                                           Text="AVAILABLE COPIES" 
+                                           FontWeight="Bold" 
+                                           Width="150" 
+                                           Foreground="#FFFFFF" 
+                                           Margin="-20 20 20 20" 
+                                           FontSize="15"/>
+                                
+                                <TextBlock HorizontalAlignment="Center" 
+                                           Grid.Column="3" 
+                                           Text="ACTION" 
+                                           FontWeight="Bold" 
+                                           Width="85" 
+                                           Foreground="#FFFFFF" 
+                                           Margin="20 20 20 20" 
+                                           FontSize="15"/>
                             </StackPanel>
                         </Grid>
 
 
                         <!-- Book List -->
-                        <ListBox ItemsSource="{Binding AvailableBooks}" SelectedItem="{Binding SelectedBook}" 
-                     Margin="0 5 40 5" Background="#FFF5EE" BorderThickness="0" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <ListBox ItemsSource="{Binding AvailableBooks}" 
+                                 SelectedItem="{Binding SelectedBook}" 
+                                 Margin="-20 5 0 0" 
+                                 Background="#FFF5EE" 
+                                 BorderThickness="0" 
+                                 HorizontalAlignment="Center" 
+                                 VerticalAlignment="Center">
                             <ListBox.ItemTemplate>
                                 <DataTemplate>
-                                    <Border Background="White"  Padding="3" CornerRadius="5" 
-                                BorderBrush="#FFD580" BorderThickness="1">
+                                    <Border Background="White"  
+                                            Padding="3" 
+                                            CornerRadius="5" 
+                                            BorderBrush="#FFD580" 
+                                            BorderThickness="1">
 
                                         <Grid>
                                             <Grid.ColumnDefinitions>
                                                 <ColumnDefinition Width="200"/>
-                                                <!-- Book Title -->
                                                 <ColumnDefinition Width="150"/>
-                                                <!-- Author -->
-                                                <ColumnDefinition Width="100"/>
-                                                <!-- Available Copies -->
+                                                <ColumnDefinition Width="150"/>
                                                 <ColumnDefinition Width="Auto"/>
-                                                <!-- Borrow Button -->
                                             </Grid.ColumnDefinitions>
-                                            <!-- Book Title -->
-                                            <TextBlock Grid.Column="0" Text="{Binding BookTitle}"  VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="15" FontWeight="Medium" Margin="10"/>
-                                            <!-- Author -->
-                                            <TextBlock Grid.Column="1"  Text="{Binding Author}"  VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="15" FontWeight="Medium"/>
-                                            <!-- Available Copies -->
-                                            <TextBlock Grid.Column="2" Text="{Binding AvailableCopies}"  VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="15" FontWeight="Medium" Margin="70 20 0 20"/>
-                                            <!-- Borrow Button -->
-                                            <!--<Button Content="Borrow"
-                                        Background="#FF7518"
-                                        Foreground="White"
-                                        FontWeight="Bold"
-                                        Command="{Binding DataContext.BorrowCommand, RelativeSource={RelativeSource AncestorType=Window}}"
-                                        CommandParameter="{Binding}"
-                                        Width="80" Margin="10" HorizontalAlignment="Right"
-                                        Cursor="Hand">
-                                        <Button.Style>
-                                            <Style TargetType="Button">
-                                                <Setter Property="Background" Value="#FF7518"/>
-                                                <Setter Property="Foreground" Value="White"/>
-                                                <Setter Property="BorderBrush" Value="#FF5F1F"/>
-                                                <Setter Property="BorderThickness" Value="2"/>
-                                                <Setter Property="Padding" Value="5"/>
-                                                <Setter Property="FontSize" Value="14"/>
-                                                -->
-                                            <!-- Hover Effect -->
-                                            <!--
-                                                <Style.Triggers>
-                                                    <Trigger Property="IsMouseOver" Value="True">
-                                                        <Setter Property="Background" Value="#FF5F1F"/>
-                                                        <Setter Property="ScaleTransform.ScaleX" Value="1.05"/>
-                                                        <Setter Property="ScaleTransform.ScaleY" Value="1.05"/>
-                                                    </Trigger>
-                                                </Style.Triggers>
-                                            </Style>
-                                        </Button.Style>
-                                    </Button>-->
+                                            
+                                            <TextBlock Grid.Column="0" 
+                                                       Text="{Binding BookTitle}"  
+                                                       VerticalAlignment="Center" 
+                                                       HorizontalAlignment="Left" 
+                                                       FontSize="15" 
+                                                       FontWeight="Medium" 
+                                                       Margin="10"/>
+                                            
+                                            <TextBlock Grid.Column="1"  
+                                                       Text="{Binding Author}"  
+                                                       VerticalAlignment="Center" 
+                                                       HorizontalAlignment="Left" 
+                                                       FontSize="15" 
+                                                       FontWeight="Medium"/>
+                                            
+                                            <TextBlock Grid.Column="2" 
+                                                       Text="{Binding AvailableCopies}"  
+                                                       VerticalAlignment="Center" 
+                                                       HorizontalAlignment="Left" 
+                                                       FontSize="15" 
+                                                       FontWeight="Medium" 
+                                                       Margin="70 20 0 20"/>
+                                          
 
                                             <Button Content="BORROW"
-Background="#FF7518"
-Command="{Binding DataContext.BorrowCommand, RelativeSource={RelativeSource AncestorType=Window}}"  
-CommandParameter="{Binding}"
-Width="130" 
-                                                Grid.Column="3"
-Height="30"
-HorizontalAlignment="Left"
-VerticalAlignment="Center"
-FocusVisualStyle="{x:Null}"
-FontSize="14"
-FontWeight="Bold"
-                                                Margin="30"
-OverridesDefaultStyle="True">
-
-                                                <Button.Style>
-                                                    <Style TargetType="Button">
-                                                        <!-- Default Properties -->
+                                                    Background="#FF7518"
+                                                    Command="{Binding DataContext.BorrowCommand, RelativeSource={RelativeSource AncestorType=Window}}"  
+                                                    CommandParameter="{Binding}"
+                                                    Width="130" 
+                                                    Grid.Column="3"
+                                                    Height="30"
+                                                    HorizontalAlignment="Left"
+                                                    VerticalAlignment="Center"
+                                                    FocusVisualStyle="{x:Null}"
+                                                    FontSize="14"
+                                                    FontWeight="Bold"
+                                                    Margin="30"
+                                                    OverridesDefaultStyle="True">
+                                                    
+                                                    <Button.Style>
+                                                        
+                                                        <Style TargetType="Button">
                                                         <Setter Property="Background" Value="#FF7518"/>
                                                         <Setter Property="Foreground" Value="White"/>
                                                         <Setter Property="BorderBrush" Value="	#FF5F1F"/>
                                                         <Setter Property="BorderThickness" Value="2"/>
                                                         <Setter Property="RenderTransformOrigin" Value="0.5,0.5"/>
-
-                                                        <!-- Define the Control Template -->
                                                         <Setter Property="Template">
-                                                            <Setter.Value>
-                                                                <ControlTemplate TargetType="Button">
-                                                                    <Border x:Name="border"
-                        Background="{TemplateBinding Background}" 
-                        BorderBrush="{TemplateBinding BorderBrush}"
-                        BorderThickness="{TemplateBinding BorderThickness}"
-                        CornerRadius="5"
-                        Padding="5"
-                        RenderTransformOrigin="0.5,0.5">
+                                                                <Setter.Value>
+                                                                    <ControlTemplate TargetType="Button">
+                                                                        <Border x:Name="border"
+                                                                                Background="{TemplateBinding Background}" 
+                                                                                BorderBrush="{TemplateBinding BorderBrush}"
+                                                                                BorderThickness="{TemplateBinding BorderThickness}"
+                                                                                CornerRadius="5"
+                                                                                Padding="5"
+                                                                                RenderTransformOrigin="0.5,0.5">
 
-                                                                        <Border.RenderTransform>
-                                                                            <ScaleTransform x:Name="scaleTransform" ScaleX="1" ScaleY="1"/>
-                                                                        </Border.RenderTransform>
+                                                                            <Border.RenderTransform>
+                                                                                <ScaleTransform x:Name="scaleTransform" 
+                                                                                                ScaleX="1" 
+                                                                                                ScaleY="1"/>
+                                                                            </Border.RenderTransform>
 
-                                                                        <!-- Wrap ContentPresenter inside a TextBlock -->
-                                                                        <TextBlock Text="{TemplateBinding Content}" 
-                               Foreground="{TemplateBinding Foreground}" 
-                               FontWeight="{TemplateBinding FontWeight}"
-                               FontSize="{TemplateBinding FontSize}"
-                               HorizontalAlignment="Center"
-                               VerticalAlignment="Center"/>
+                                                                            <TextBlock Text="{TemplateBinding Content}" 
+                                                                                       Foreground="{TemplateBinding Foreground}" 
+                                                                                       FontWeight="{TemplateBinding FontWeight}"
+                                                                                       FontSize="{TemplateBinding FontSize}"
+                                                                                       HorizontalAlignment="Center"
+                                                                                       VerticalAlignment="Center"/>
 
-                                                                    </Border>
+                                                                        </Border>
 
-                                                                    <!-- Hover Effect -->
-                                                                    <ControlTemplate.Triggers>
-                                                                        <Trigger Property="IsMouseOver" Value="True">
-                                                                            <Setter TargetName="border" Property="Background" Value="	#FF5F1F"/>
-                                                                            <Trigger.EnterActions>
-                                                                                <BeginStoryboard>
-                                                                                    <Storyboard>
-                                                                                        <DoubleAnimation Storyboard.TargetName="scaleTransform"
-                                                     Storyboard.TargetProperty="ScaleX"
-                                                     To="1.05"
-                                                     Duration="0:0:0.3"/>
-                                                                                        <DoubleAnimation Storyboard.TargetName="scaleTransform"
-                                                     Storyboard.TargetProperty="ScaleY"
-                                                     To="1.05"
-                                                     Duration="0:0:0.3"/>
-                                                                                    </Storyboard>
-                                                                                </BeginStoryboard>
-                                                                            </Trigger.EnterActions>
-                                                                            <Trigger.ExitActions>
-                                                                                <BeginStoryboard>
-                                                                                    <Storyboard>
-                                                                                        <DoubleAnimation Storyboard.TargetName="scaleTransform"
-                                                     Storyboard.TargetProperty="ScaleX"
-                                                     To="1"
-                                                     Duration="0:0:0.3"/>
-                                                                                        <DoubleAnimation Storyboard.TargetName="scaleTransform"
-                                                     Storyboard.TargetProperty="ScaleY"
-                                                     To="1"
-                                                     Duration="0:0:0.3"/>
+                                                                        <ControlTemplate.Triggers>
+                                                                            <Trigger Property="IsMouseOver" Value="True">
+                                                                                <Setter TargetName="border" Property="Background" Value="	#FF5F1F"/>
+                                                                                <Trigger.EnterActions>
+                                                                                    <BeginStoryboard>
+                                                                                        <Storyboard>
+                                                                                            <DoubleAnimation Storyboard.TargetName="scaleTransform"
+                                                                                                             Storyboard.TargetProperty="ScaleX"
+                                                                                                             To="1.05"
+                                                                                                             Duration="0:0:0.3"/>
+                                                                                            <DoubleAnimation Storyboard.TargetName="scaleTransform"
+                                                                                                             Storyboard.TargetProperty="ScaleY"
+                                                                                                             To="1.05"
+                                                                                                             Duration="0:0:0.3"/>
+                                                                                        </Storyboard>
+                                                                                    </BeginStoryboard>
+                                                                                </Trigger.EnterActions>
+                                                                                <Trigger.ExitActions>
+                                                                                    <BeginStoryboard>
+                                                                                        <Storyboard>
+                                                                                            <DoubleAnimation Storyboard.TargetName="scaleTransform"
+                                                                                                             Storyboard.TargetProperty="ScaleX"
+                                                                                                             To="1"
+                                                                                                             Duration="0:0:0.3"/>
+                                                                                            <DoubleAnimation Storyboard.TargetName="scaleTransform"
+                                                                                                             Storyboard.TargetProperty="ScaleY"
+                                                                                                             To="1"
+                                                                                                             Duration="0:0:0.3"/>
                                                                                     </Storyboard>
                                                                                 </BeginStoryboard>
                                                                             </Trigger.ExitActions>

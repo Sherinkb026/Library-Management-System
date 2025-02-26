@@ -11,6 +11,7 @@
         ResizeMode="NoResize">
 
     <Window.Resources>
+        <!--Button Curve style-->
         <Style x:Key="RoundedTextBox" TargetType="Border">
             <Setter Property="CornerRadius" Value="5"/>
             <Setter Property="BorderThickness" Value="2"/>
@@ -27,7 +28,7 @@
         </Style>
 
        
-
+        <!--TextBox Style-->
         <Style x:Key="TextBoxStyle" TargetType="TextBox">
             <Setter Property="Width" Value="300"/>
             <Setter Property="Height" Value="50"/>
@@ -38,9 +39,9 @@
             <Setter Property="FontSize" Value="16"/>
             <Setter Property="Padding" Value="12"/>
             <Setter Property="Background" Value="#FFF5EE"/>
-
         </Style>
-
+        
+        <!--TextBlock Style-->
         <Style x:Key="TextBlockStyle" TargetType="TextBlock">
             <Setter Property="Margin" Value="0 30 160 10"/>
             <Setter Property="FontSize" Value="15"/>
@@ -48,14 +49,22 @@
             <Setter Property="HorizontalAlignment" Value="Center"/>
             <Setter Property="Foreground" Value="#FF5F15"/>
             <Setter Property="FontWeight" Value="Medium" />
-
         </Style>
+        
     </Window.Resources>
 
 
     <Grid Background="#fbb885">
-        <Border Background="#FFF5EE" CornerRadius="15" Margin="50" Padding="10" VerticalAlignment="Top" HorizontalAlignment="Center">
-            <Grid VerticalAlignment="Top" HorizontalAlignment="Center" Background="#FFF5EE" Margin="50">
+        <Border Background="#FFF5EE" 
+                CornerRadius="15" 
+                Margin="50" 
+                Padding="10" 
+                VerticalAlignment="Top" 
+                HorizontalAlignment="Center">
+            <Grid VerticalAlignment="Top" 
+                  HorizontalAlignment="Center" 
+                  Background="#FFF5EE" 
+                  Margin="50">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
@@ -67,39 +76,40 @@
 
 
                 <TextBlock Grid.Row="0" 
-   Foreground="#FF7518" 
-   FontSize="30" 
-   FontWeight="Bold" 
-   HorizontalAlignment="Center" 
-   Margin="40 40 40 30">REGISTER HERE</TextBlock>
+                           Foreground="#FF7518" 
+                           FontSize="30" 
+                           FontWeight="Bold" 
+                           HorizontalAlignment="Center" 
+                           Margin="40 40 40 30">REGISTER HERE
+                </TextBlock>
 
 
 
                 <!-- Name Label -->
-                <TextBlock 
-    Style="{StaticResource TextBlockStyle}"
-    Text="👤Enter your Name" 
-    Grid.Row="1"/>
+                <TextBlock Style="{StaticResource TextBlockStyle}"
+                           Text="👤Enter your Name" 
+                           Grid.Row="1"/>
 
 
                 <Border Style="{StaticResource RoundedTextBox}" Grid.Row="2">
-                    <TextBox 
-        Style="{StaticResource TextBoxStyle}"
-        Text="{Binding UserName, UpdateSourceTrigger=PropertyChanged}"/>
+                    
+                    <TextBox Style="{StaticResource TextBoxStyle}"
+                             Text="{Binding UserName, UpdateSourceTrigger=PropertyChanged}"/>
+                    
                 </Border>
 
 
                 <!-- Email Label -->
-                <TextBlock 
-    Style="{StaticResource TextBlockStyle}"
-    Text=" 📧 Enter Your Email:" 
-    Grid.Row="3"/>
+                <TextBlock Style="{StaticResource TextBlockStyle}"
+                           Text=" 📧 Enter Your Email:" 
+                           Grid.Row="3"/>
 
 
                 <Border Style="{StaticResource RoundedTextBox}" Grid.Row="4">
-                    <TextBox 
-        Style="{StaticResource TextBoxStyle}"
-        Text="{Binding Email, UpdateSourceTrigger=PropertyChanged}"/>
+                    
+                    <TextBox Style="{StaticResource TextBoxStyle}"
+                             Text="{Binding Email, UpdateSourceTrigger=PropertyChanged}"/>
+                    
                 </Border>
 
 
@@ -107,85 +117,90 @@
 
 
                 <Button Content="CONFIRM BORROW"
-Background="#FF7518"
-FontWeight="Medium"
-Command="{Binding ConfirmBorrowCommand}"  
-Width="230" 
-Height="50"
-Grid.Row="5"
-HorizontalAlignment="Center"
-FocusVisualStyle="{x:Null}"
-Margin="50"
-FontSize="16"
-OverridesDefaultStyle="True">
+                        Background="#FF7518"
+                        FontWeight="Medium"
+                        Command="{Binding ConfirmBorrowCommand}"  
+                        Width="230" 
+                        Height="50"
+                        Grid.Row="5"
+                        HorizontalAlignment="Center"
+                        FocusVisualStyle="{x:Null}"
+                        Margin="50"
+                        FontSize="16"
+                        OverridesDefaultStyle="True">
 
                     <Button.Style>
+
                         <Style TargetType="Button">
-                            <!-- Default Properties -->
                             <Setter Property="Background" Value="#FF7518"/>
                             <Setter Property="Foreground" Value="White"/>
                             <Setter Property="BorderBrush" Value="	#FF5F1F"/>
                             <Setter Property="BorderThickness" Value="2"/>
                             <Setter Property="RenderTransformOrigin" Value="0.5,0.5"/>
 
-                            <!-- Define the Control Template -->
                             <Setter Property="Template">
                                 <Setter.Value>
                                     <ControlTemplate TargetType="Button">
                                         <Border x:Name="border"
-                        Background="{TemplateBinding Background}" 
-                        BorderBrush="{TemplateBinding BorderBrush}"
-                        BorderThickness="{TemplateBinding BorderThickness}"
-                        CornerRadius="5"
-                        Padding="10"
-                        RenderTransformOrigin="0.5,0.5">
+                                                Background="{TemplateBinding Background}" 
+                                                BorderBrush="{TemplateBinding BorderBrush}"
+                                                BorderThickness="{TemplateBinding BorderThickness}"
+                                                CornerRadius="5"
+                                                Padding="10"
+                                                RenderTransformOrigin="0.5,0.5">
 
                                             <Border.RenderTransform>
                                                 <ScaleTransform x:Name="scaleTransform" ScaleX="1" ScaleY="1"/>
                                             </Border.RenderTransform>
+                                            
 
-                                            <!-- Wrap ContentPresenter inside a TextBlock -->
                                             <TextBlock Text="{TemplateBinding Content}" 
-                               Foreground="{TemplateBinding Foreground}" 
-                               FontWeight="{TemplateBinding FontWeight}"
-                               FontSize="{TemplateBinding FontSize}"
-                               HorizontalAlignment="Center"
-                               VerticalAlignment="Center"/>
+                                                       Foreground="{TemplateBinding Foreground}" 
+                                                       FontWeight="{TemplateBinding FontWeight}"
+                                                       FontSize="{TemplateBinding FontSize}"
+                                                       HorizontalAlignment="Center"
+                                                       VerticalAlignment="Center"/>
 
                                         </Border>
-
-                                        <!-- Hover Effect -->
                                         <ControlTemplate.Triggers>
                                             <Trigger Property="IsMouseOver" Value="True">
                                                 <Setter TargetName="border" Property="Background" Value="	#FF5F1F"/>
+                                                
+                                                
                                                 <Trigger.EnterActions>
                                                     <BeginStoryboard>
                                                         <Storyboard>
                                                             <DoubleAnimation Storyboard.TargetName="scaleTransform"
-                                                     Storyboard.TargetProperty="ScaleX"
-                                                     To="1.05"
-                                                     Duration="0:0:0.3"/>
+                                                                             Storyboard.TargetProperty="ScaleX"
+                                                                             To="1.05"
+                                                                             Duration="0:0:0.3"/>
                                                             <DoubleAnimation Storyboard.TargetName="scaleTransform"
-                                                     Storyboard.TargetProperty="ScaleY"
-                                                     To="1.05"
-                                                     Duration="0:0:0.3"/>
+                                                                             Storyboard.TargetProperty="ScaleY"
+                                                                             To="1.05"
+                                                                             Duration="0:0:0.3"/>
                                                         </Storyboard>
                                                     </BeginStoryboard>
                                                 </Trigger.EnterActions>
+                                                
+                                                
                                                 <Trigger.ExitActions>
                                                     <BeginStoryboard>
+                                                        
                                                         <Storyboard>
                                                             <DoubleAnimation Storyboard.TargetName="scaleTransform"
-                                                     Storyboard.TargetProperty="ScaleX"
-                                                     To="1"
-                                                     Duration="0:0:0.3"/>
+                                                                             Storyboard.TargetProperty="ScaleX"
+                                                                             To="1"
+                                                                             Duration="0:0:0.3"/>
                                                             <DoubleAnimation Storyboard.TargetName="scaleTransform"
-                                                     Storyboard.TargetProperty="ScaleY"
-                                                     To="1"
-                                                     Duration="0:0:0.3"/>
+                                                                             Storyboard.TargetProperty="ScaleY"
+                                                                             To="1"
+                                                                             Duration="0:0:0.3"/>
                                                         </Storyboard>
+                                                        
                                                     </BeginStoryboard>
                                                 </Trigger.ExitActions>
+                                                
+                                                
                                             </Trigger>
                                         </ControlTemplate.Triggers>
                                     </ControlTemplate>
