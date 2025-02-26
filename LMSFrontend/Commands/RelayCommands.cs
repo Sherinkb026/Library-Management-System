@@ -20,6 +20,7 @@ namespace LMSFrontend.Commands
         public RelayCommands(Action<object?> ExecuteMethod, Predicate<object?> CanExecuteMethod)
         {
             _execute = ExecuteMethod;
+
             _canExecute = CanExecuteMethod;
         }
 

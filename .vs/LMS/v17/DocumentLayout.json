@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70702914-034B-46B7-BAF1-04EF03AE4C89}|LMSFrontend\\LMSFrontend.csproj|c:\\programmer\\cypheron technologies\\repos\\lms\\lmsfrontend\\views\\userinfowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{70702914-034B-46B7-BAF1-04EF03AE4C89}|LMSFrontend\\LMSFrontend.csproj|solutionrelative:lmsfrontend\\views\\userinfowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{70702914-034B-46B7-BAF1-04EF03AE4C89}|LMSFrontend\\LMSFrontend.csproj|c:\\programmer\\cypheron technologies\\repos\\lms\\lmsfrontend\\views\\availablebooks.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{70702914-034B-46B7-BAF1-04EF03AE4C89}|LMSFrontend\\LMSFrontend.csproj|solutionrelative:lmsfrontend\\views\\availablebooks.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6781505E-0351-4BAC-940E-D93F5E4EEA64}|LMSAPI\\LMSAPI.csproj|c:\\programmer\\cypheron technologies\\repos\\lms\\lmsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6781505E-0351-4BAC-940E-D93F5E4EEA64}|LMSAPI\\LMSAPI.csproj|solutionrelative:lmsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{70702914-034B-46B7-BAF1-04EF03AE4C89}|LMSFrontend\\LMSFrontend.csproj|c:\\programmer\\cypheron technologies\\repos\\lms\\lmsfrontend\\viewmodel\\availablebooksviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,6 +17,33 @@
     {
       "AbsoluteMoniker": "D:0:0:{70702914-034B-46B7-BAF1-04EF03AE4C89}|LMSFrontend\\LMSFrontend.csproj|c:\\programmer\\cypheron technologies\\repos\\lms\\lmsfrontend\\viewmodel\\userinfoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70702914-034B-46B7-BAF1-04EF03AE4C89}|LMSFrontend\\LMSFrontend.csproj|solutionrelative:lmsfrontend\\viewmodel\\userinfoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70702914-034B-46B7-BAF1-04EF03AE4C89}|LMSFrontend\\LMSFrontend.csproj|c:\\programmer\\cypheron technologies\\repos\\lms\\lmsfrontend\\views\\userinfowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{70702914-034B-46B7-BAF1-04EF03AE4C89}|LMSFrontend\\LMSFrontend.csproj|solutionrelative:lmsfrontend\\views\\userinfowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sheri\\AppData\\Local\\Temp\\.vsdbgsrc\\a154cdaf7e6e45f69ad3757fdc15efd4a1080bc5d2bcd6d029bb9a853b1a0bf7\\Storyboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70702914-034B-46B7-BAF1-04EF03AE4C89}|LMSFrontend\\LMSFrontend.csproj|c:\\programmer\\cypheron technologies\\repos\\lms\\lmsfrontend\\lmsfrontend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{70702914-034B-46B7-BAF1-04EF03AE4C89}|LMSFrontend\\LMSFrontend.csproj|solutionrelative:lmsfrontend\\lmsfrontend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70702914-034B-46B7-BAF1-04EF03AE4C89}|LMSFrontend\\LMSFrontend.csproj|c:\\programmer\\cypheron technologies\\repos\\lms\\lmsfrontend\\views\\userinfowindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70702914-034B-46B7-BAF1-04EF03AE4C89}|LMSFrontend\\LMSFrontend.csproj|solutionrelative:lmsfrontend\\views\\userinfowindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6781505E-0351-4BAC-940E-D93F5E4EEA64}|LMSAPI\\LMSAPI.csproj|c:\\programmer\\cypheron technologies\\repos\\lms\\lmsapi\\lmsapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6781505E-0351-4BAC-940E-D93F5E4EEA64}|LMSAPI\\LMSAPI.csproj|solutionrelative:lmsapi\\lmsapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70702914-034B-46B7-BAF1-04EF03AE4C89}|LMSFrontend\\LMSFrontend.csproj|c:\\programmer\\cypheron technologies\\repos\\lms\\lmsfrontend\\commands\\relaycommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70702914-034B-46B7-BAF1-04EF03AE4C89}|LMSFrontend\\LMSFrontend.csproj|solutionrelative:lmsfrontend\\commands\\relaycommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70702914-034B-46B7-BAF1-04EF03AE4C89}|LMSFrontend\\LMSFrontend.csproj|c:\\programmer\\cypheron technologies\\repos\\lms\\lmsfrontend\\viewmodel\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70702914-034B-46B7-BAF1-04EF03AE4C89}|LMSFrontend\\LMSFrontend.csproj|solutionrelative:lmsfrontend\\viewmodel\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6781505E-0351-4BAC-940E-D93F5E4EEA64}|LMSAPI\\LMSAPI.csproj|c:\\programmer\\cypheron technologies\\repos\\lms\\lmsapi\\models\\borrowrecords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,10 +74,6 @@
       "RelativeMoniker": "D:0:0:{6781505E-0351-4BAC-940E-D93F5E4EEA64}|LMSAPI\\LMSAPI.csproj|solutionrelative:lmsapi\\models\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70702914-034B-46B7-BAF1-04EF03AE4C89}|LMSFrontend\\LMSFrontend.csproj|c:\\programmer\\cypheron technologies\\repos\\lms\\lmsfrontend\\commands\\relaycommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70702914-034B-46B7-BAF1-04EF03AE4C89}|LMSFrontend\\LMSFrontend.csproj|solutionrelative:lmsfrontend\\commands\\relaycommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6781505E-0351-4BAC-940E-D93F5E4EEA64}|LMSAPI\\LMSAPI.csproj|c:\\programmer\\cypheron technologies\\repos\\lms\\lmsapi\\models\\borrowrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6781505E-0351-4BAC-940E-D93F5E4EEA64}|LMSAPI\\LMSAPI.csproj|solutionrelative:lmsapi\\models\\borrowrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -59,20 +82,12 @@
       "RelativeMoniker": "D:0:0:{6781505E-0351-4BAC-940E-D93F5E4EEA64}|LMSAPI\\LMSAPI.csproj|solutionrelative:lmsapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70702914-034B-46B7-BAF1-04EF03AE4C89}|LMSFrontend\\LMSFrontend.csproj|c:\\programmer\\cypheron technologies\\repos\\lms\\lmsfrontend\\views\\userinfowindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70702914-034B-46B7-BAF1-04EF03AE4C89}|LMSFrontend\\LMSFrontend.csproj|solutionrelative:lmsfrontend\\views\\userinfowindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6781505E-0351-4BAC-940E-D93F5E4EEA64}|LMSAPI\\LMSAPI.csproj|c:\\programmer\\cypheron technologies\\repos\\lms\\lmsapi\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6781505E-0351-4BAC-940E-D93F5E4EEA64}|LMSAPI\\LMSAPI.csproj|solutionrelative:lmsapi\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6781505E-0351-4BAC-940E-D93F5E4EEA64}|LMSAPI\\LMSAPI.csproj|c:\\programmer\\cypheron technologies\\repos\\lms\\lmsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6781505E-0351-4BAC-940E-D93F5E4EEA64}|LMSAPI\\LMSAPI.csproj|solutionrelative:lmsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6781505E-0351-4BAC-940E-D93F5E4EEA64}|LMSAPI\\LMSAPI.csproj|c:\\programmer\\cypheron technologies\\repos\\lms\\lmsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6781505E-0351-4BAC-940E-D93F5E4EEA64}|LMSAPI\\LMSAPI.csproj|solutionrelative:lmsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSAPI\\Migrations\\20250219063051_third.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -92,14 +107,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{70702914-034B-46B7-BAF1-04EF03AE4C89}|LMSFrontend\\LMSFrontend.csproj|c:\\programmer\\cypheron technologies\\repos\\lms\\lmsfrontend\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70702914-034B-46B7-BAF1-04EF03AE4C89}|LMSFrontend\\LMSFrontend.csproj|solutionrelative:lmsfrontend\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70702914-034B-46B7-BAF1-04EF03AE4C89}|LMSFrontend\\LMSFrontend.csproj|c:\\programmer\\cypheron technologies\\repos\\lms\\lmsfrontend\\lmsfrontend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{70702914-034B-46B7-BAF1-04EF03AE4C89}|LMSFrontend\\LMSFrontend.csproj|solutionrelative:lmsfrontend\\lmsfrontend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6781505E-0351-4BAC-940E-D93F5E4EEA64}|LMSAPI\\LMSAPI.csproj|c:\\programmer\\cypheron technologies\\repos\\lms\\lmsapi\\lmsapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6781505E-0351-4BAC-940E-D93F5E4EEA64}|LMSAPI\\LMSAPI.csproj|solutionrelative:lmsapi\\lmsapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6781505E-0351-4BAC-940E-D93F5E4EEA64}|LMSAPI\\LMSAPI.csproj|c:\\programmer\\cypheron technologies\\repos\\lms\\lmsapi\\migrations\\20250218061323_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -129,7 +136,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 30,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -141,56 +148,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSAPI\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "LMSAPI\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSAPI\\Controllers\\UserController.cs",
-              "RelativeToolTip": "LMSAPI\\Controllers\\UserController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwD0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T07:02:06.268Z"
+              "DocumentIndex": 6,
+              "Title": "LMSFrontend.csproj",
+              "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSFrontend\\LMSFrontend.csproj",
+              "RelativeDocumentMoniker": "LMSFrontend\\LMSFrontend.csproj",
+              "ToolTip": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSFrontend\\LMSFrontend.csproj",
+              "RelativeToolTip": "LMSFrontend\\LMSFrontend.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-18T07:38:39.174Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSFrontend\\App.xaml",
-              "RelativeDocumentMoniker": "LMSFrontend\\App.xaml",
-              "ToolTip": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSFrontend\\App.xaml",
-              "RelativeToolTip": "LMSFrontend\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-18T11:26:00.243Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BorrowRecords.cs",
-              "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSAPI\\Models\\BorrowRecords.cs",
-              "RelativeDocumentMoniker": "LMSAPI\\Models\\BorrowRecords.cs",
-              "ToolTip": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSAPI\\Models\\BorrowRecords.cs",
-              "RelativeToolTip": "LMSAPI\\Models\\BorrowRecords.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAwwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T06:07:27.094Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserInfoViewModel.cs",
-              "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSFrontend\\ViewModel\\UserInfoViewModel.cs",
-              "RelativeDocumentMoniker": "LMSFrontend\\ViewModel\\UserInfoViewModel.cs",
-              "ToolTip": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSFrontend\\ViewModel\\UserInfoViewModel.cs",
-              "RelativeToolTip": "LMSFrontend\\ViewModel\\UserInfoViewModel.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAUwFAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T08:53:23.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AvailableBooks.xaml",
               "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSFrontend\\Views\\AvailableBooks.xaml",
               "RelativeDocumentMoniker": "LMSFrontend\\Views\\AvailableBooks.xaml",
@@ -202,7 +172,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "AvailableBooksViewModel.cs",
+              "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSFrontend\\ViewModel\\AvailableBooksViewModel.cs",
+              "RelativeDocumentMoniker": "LMSFrontend\\ViewModel\\AvailableBooksViewModel.cs",
+              "ToolTip": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSFrontend\\ViewModel\\AvailableBooksViewModel.cs",
+              "RelativeToolTip": "LMSFrontend\\ViewModel\\AvailableBooksViewModel.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwDcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T07:46:18.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "UserInfoWindow.xaml",
               "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSFrontend\\Views\\UserInfoWindow.xaml",
               "RelativeDocumentMoniker": "LMSFrontend\\Views\\UserInfoWindow.xaml",
@@ -214,20 +197,130 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AvailableBooksViewModel.cs",
-              "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSFrontend\\ViewModel\\AvailableBooksViewModel.cs",
-              "RelativeDocumentMoniker": "LMSFrontend\\ViewModel\\AvailableBooksViewModel.cs",
-              "ToolTip": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSFrontend\\ViewModel\\AvailableBooksViewModel.cs",
-              "RelativeToolTip": "LMSFrontend\\ViewModel\\AvailableBooksViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Storyboard.cs",
+              "DocumentMoniker": "C:\\Users\\sheri\\AppData\\Local\\Temp\\.vsdbgsrc\\a154cdaf7e6e45f69ad3757fdc15efd4a1080bc5d2bcd6d029bb9a853b1a0bf7\\Storyboard.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\sheri\\AppData\\Local\\Temp\\.vsdbgsrc\\a154cdaf7e6e45f69ad3757fdc15efd4a1080bc5d2bcd6d029bb9a853b1a0bf7\\Storyboard.cs",
+              "ToolTip": "C:\\Users\\sheri\\AppData\\Local\\Temp\\.vsdbgsrc\\a154cdaf7e6e45f69ad3757fdc15efd4a1080bc5d2bcd6d029bb9a853b1a0bf7\\Storyboard.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\sheri\\AppData\\Local\\Temp\\.vsdbgsrc\\a154cdaf7e6e45f69ad3757fdc15efd4a1080bc5d2bcd6d029bb9a853b1a0bf7\\Storyboard.cs [Read Only]",
+              "ViewState": "AgIAACECAAAAAAAAAAAWwDECAAAFAAAAAQAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T07:46:18.158Z",
+              "WhenOpened": "2025-02-24T06:57:06.046Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserInfoViewModel.cs",
+              "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSFrontend\\ViewModel\\UserInfoViewModel.cs",
+              "RelativeDocumentMoniker": "LMSFrontend\\ViewModel\\UserInfoViewModel.cs",
+              "ToolTip": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSFrontend\\ViewModel\\UserInfoViewModel.cs",
+              "RelativeToolTip": "LMSFrontend\\ViewModel\\UserInfoViewModel.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwFkAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T08:53:23.222Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "LMSAPI\\appsettings.json",
+              "ToolTip": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSAPI\\appsettings.json",
+              "RelativeToolTip": "LMSAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-18T05:57:47.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserInfoWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSFrontend\\Views\\UserInfoWindow.xaml.cs",
+              "RelativeDocumentMoniker": "LMSFrontend\\Views\\UserInfoWindow.xaml.cs",
+              "ToolTip": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSFrontend\\Views\\UserInfoWindow.xaml.cs",
+              "RelativeToolTip": "LMSFrontend\\Views\\UserInfoWindow.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAWwBkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T08:53:04.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LMSAPI.csproj",
+              "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSAPI\\LMSAPI.csproj",
+              "RelativeDocumentMoniker": "LMSAPI\\LMSAPI.csproj",
+              "ToolTip": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSAPI\\LMSAPI.csproj",
+              "RelativeToolTip": "LMSAPI\\LMSAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-18T06:01:53.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSFrontend\\ViewModel\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "LMSFrontend\\ViewModel\\BaseViewModel.cs",
+              "ToolTip": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSFrontend\\ViewModel\\BaseViewModel.cs",
+              "RelativeToolTip": "LMSFrontend\\ViewModel\\BaseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T05:48:34.481Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "RelayCommands.cs",
+              "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSFrontend\\Commands\\RelayCommands.cs",
+              "RelativeDocumentMoniker": "LMSFrontend\\Commands\\RelayCommands.cs",
+              "ToolTip": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSFrontend\\Commands\\RelayCommands.cs",
+              "RelativeToolTip": "LMSFrontend\\Commands\\RelayCommands.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAA7wBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T07:50:46.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BorrowRecords.cs",
+              "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSAPI\\Models\\BorrowRecords.cs",
+              "RelativeDocumentMoniker": "LMSAPI\\Models\\BorrowRecords.cs",
+              "ToolTip": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSAPI\\Models\\BorrowRecords.cs",
+              "RelativeToolTip": "LMSAPI\\Models\\BorrowRecords.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAwwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T06:07:27.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSFrontend\\App.xaml",
+              "RelativeDocumentMoniker": "LMSFrontend\\App.xaml",
+              "ToolTip": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSFrontend\\App.xaml",
+              "RelativeToolTip": "LMSFrontend\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-18T11:26:00.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "LMSAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "LMSAPI\\Controllers\\UserController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwD0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T07:02:06.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "BooksController.cs",
               "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSAPI\\Controllers\\BooksController.cs",
               "RelativeDocumentMoniker": "LMSAPI\\Controllers\\BooksController.cs",
@@ -239,7 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "LMSAPI\\Properties\\launchSettings.json",
@@ -251,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "20250220085739_seventh.cs",
               "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSAPI\\Migrations\\20250220085739_seventh.cs",
               "RelativeDocumentMoniker": "LMSAPI\\Migrations\\20250220085739_seventh.cs",
@@ -263,7 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "20250220084850_Sixth.cs",
               "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSAPI\\Migrations\\20250220084850_Sixth.cs",
               "RelativeDocumentMoniker": "LMSAPI\\Migrations\\20250220084850_Sixth.cs",
@@ -275,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "BorrowController.cs",
               "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSAPI\\Controllers\\BorrowController.cs",
               "RelativeDocumentMoniker": "LMSAPI\\Controllers\\BorrowController.cs",
@@ -287,7 +380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "Books.cs",
               "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSAPI\\Models\\Books.cs",
               "RelativeDocumentMoniker": "LMSAPI\\Models\\Books.cs",
@@ -299,19 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RelayCommands.cs",
-              "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSFrontend\\Commands\\RelayCommands.cs",
-              "RelativeDocumentMoniker": "LMSFrontend\\Commands\\RelayCommands.cs",
-              "ToolTip": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSFrontend\\Commands\\RelayCommands.cs",
-              "RelativeToolTip": "LMSFrontend\\Commands\\RelayCommands.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAIwBUAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T07:50:46.549Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "BorrowRequest.cs",
               "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSAPI\\Models\\BorrowRequest.cs",
               "RelativeDocumentMoniker": "LMSAPI\\Models\\BorrowRequest.cs",
@@ -323,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSAPI\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "LMSAPI\\Data\\ApplicationDbContext.cs",
@@ -335,19 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UserInfoWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSFrontend\\Views\\UserInfoWindow.xaml.cs",
-              "RelativeDocumentMoniker": "LMSFrontend\\Views\\UserInfoWindow.xaml.cs",
-              "ToolTip": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSFrontend\\Views\\UserInfoWindow.xaml.cs",
-              "RelativeToolTip": "LMSFrontend\\Views\\UserInfoWindow.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T08:53:04.433Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "Users.cs",
               "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSAPI\\Models\\Users.cs",
               "RelativeDocumentMoniker": "LMSAPI\\Models\\Users.cs",
@@ -359,19 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "LMSAPI\\appsettings.json",
-              "ToolTip": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSAPI\\appsettings.json",
-              "RelativeToolTip": "LMSAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-18T05:57:47.326Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSAPI\\Program.cs",
               "RelativeDocumentMoniker": "LMSAPI\\Program.cs",
@@ -383,7 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "20250219062639_third.cs",
               "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSAPI\\Migrations\\20250219062639_third.cs",
               "RelativeDocumentMoniker": "LMSAPI\\Migrations\\20250219062639_third.cs",
@@ -395,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "20250219063051_third.cs",
               "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSAPI\\Migrations\\20250219063051_third.cs",
               "RelativeDocumentMoniker": "LMSAPI\\Migrations\\20250219063051_third.cs",
@@ -407,7 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "20250219063632_fifth.cs",
               "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSAPI\\Migrations\\20250219063632_fifth.cs",
               "RelativeDocumentMoniker": "LMSAPI\\Migrations\\20250219063632_fifth.cs",
@@ -419,7 +476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "20250219063409_Fourth.cs",
               "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSAPI\\Migrations\\20250219063409_Fourth.cs",
               "RelativeDocumentMoniker": "LMSAPI\\Migrations\\20250219063409_Fourth.cs",
@@ -431,7 +488,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "AvailableBooks.xaml.cs",
               "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSFrontend\\Views\\AvailableBooks.xaml.cs",
               "RelativeDocumentMoniker": "LMSFrontend\\Views\\AvailableBooks.xaml.cs",
@@ -443,7 +500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "ResourcePart.cs",
               "DocumentMoniker": "C:\\Users\\sheri\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\sheri\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
@@ -456,7 +513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSFrontend\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "LMSFrontend\\AssemblyInfo.cs",
@@ -468,19 +525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "LMSFrontend.csproj",
-              "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSFrontend\\LMSFrontend.csproj",
-              "RelativeDocumentMoniker": "LMSFrontend\\LMSFrontend.csproj",
-              "ToolTip": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSFrontend\\LMSFrontend.csproj",
-              "RelativeToolTip": "LMSFrontend\\LMSFrontend.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-18T07:38:39.174Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "20250218061323_Initial.cs",
               "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSAPI\\Migrations\\20250218061323_Initial.cs",
               "RelativeDocumentMoniker": "LMSAPI\\Migrations\\20250218061323_Initial.cs",
@@ -489,18 +534,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T06:13:24.763Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "LMSAPI.csproj",
-              "DocumentMoniker": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSAPI\\LMSAPI.csproj",
-              "RelativeDocumentMoniker": "LMSAPI\\LMSAPI.csproj",
-              "ToolTip": "C:\\Programmer\\CYPHERON TECHNOLOGIES\\repos\\LMS\\LMSAPI\\LMSAPI.csproj",
-              "RelativeToolTip": "LMSAPI\\LMSAPI.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-18T06:01:53.825Z"
             }
           ]
         },

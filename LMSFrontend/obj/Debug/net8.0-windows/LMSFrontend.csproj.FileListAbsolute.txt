@@ -68,10 +68,10 @@ C:\Programmer\CYPHERON TECHNOLOGIES\repos\LMS\LMSFrontend\obj\Debug\net8.0-windo
 C:\Programmer\CYPHERON TECHNOLOGIES\repos\LMS\LMSFrontend\obj\Debug\net8.0-windows\LMSFrontend.AssemblyInfoInputs.cache
 C:\Programmer\CYPHERON TECHNOLOGIES\repos\LMS\LMSFrontend\obj\Debug\net8.0-windows\LMSFrontend.AssemblyInfo.cs
 C:\Programmer\CYPHERON TECHNOLOGIES\repos\LMS\LMSFrontend\obj\Debug\net8.0-windows\LMSFrontend.csproj.CoreCompileInputs.cache
+C:\Programmer\CYPHERON TECHNOLOGIES\repos\LMS\LMSFrontend\obj\Debug\net8.0-windows\LMSFrontend.sourcelink.json
 C:\Programmer\CYPHERON TECHNOLOGIES\repos\LMS\LMSFrontend\obj\Debug\net8.0-windows\LMSFront.9935B2E7.Up2Date
 C:\Programmer\CYPHERON TECHNOLOGIES\repos\LMS\LMSFrontend\obj\Debug\net8.0-windows\LMSFrontend.dll
 C:\Programmer\CYPHERON TECHNOLOGIES\repos\LMS\LMSFrontend\obj\Debug\net8.0-windows\refint\LMSFrontend.dll
 C:\Programmer\CYPHERON TECHNOLOGIES\repos\LMS\LMSFrontend\obj\Debug\net8.0-windows\LMSFrontend.pdb
 C:\Programmer\CYPHERON TECHNOLOGIES\repos\LMS\LMSFrontend\obj\Debug\net8.0-windows\LMSFrontend.genruntimeconfig.cache
 C:\Programmer\CYPHERON TECHNOLOGIES\repos\LMS\LMSFrontend\obj\Debug\net8.0-windows\ref\LMSFrontend.dll
-C:\Programmer\CYPHERON TECHNOLOGIES\repos\LMS\LMSFrontend\obj\Debug\net8.0-windows\LMSFrontend.sourcelink.json

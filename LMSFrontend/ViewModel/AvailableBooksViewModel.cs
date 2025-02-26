@@ -10,51 +10,61 @@ using Newtonsoft.Json;
 
 namespace LMSFrontend.ViewModel
 {
-    public class AvailableBooksViewModel : INotifyPropertyChanged
+    public class AvailableBooksViewModel : BaseViewModel<AvailableBooksViewModel>
     {
 
-        public event PropertyChangedEventHandler PropertyChanged;
         public ObservableCollection<Books> AvailableBooks { get; set; }
+
         private readonly HttpClient _httpClient;
 
         private Books _selectedBook;
 
 
 
-
         public Books SelectedBook
         {
             get => _selectedBook;
-            set
-            {
-                _selectedBook = value;
-                OnPropertyChanged(nameof(SelectedBook));
-            }
+
+            set => SetProperty(ref _selectedBook, value);
+            
         }
 
 
         public ICommand BorrowCommand { get; set; }
 
+
         public AvailableBooksViewModel()
         {
+
             _httpClient = new HttpClient { BaseAddress = new Uri("https://localhost:7266/api/") };
+
             AvailableBooks = new ObservableCollection<Books>();
+
             BorrowCommand = new RelayCommands(ExecuteBorrowCommand, CanExecuteBorrowCommand);
+
             LoadAvailableBooks();
+
         }
+
 
 
         public async void LoadAvailableBooks()
         {
             try
             {
-                // Replace with your actual API URL
+
+                //checks if the book is available
                 var response = await _httpClient.GetStringAsync("Books/available");
+
                 var books = JsonConvert.DeserializeObject<ObservableCollection<Books>>(response);
+
                 AvailableBooks.Clear();
+
                 foreach(var book in books)
                 {
+
                     AvailableBooks.Add(book);
+
                 }
 
                
@@ -69,8 +79,10 @@ namespace LMSFrontend.ViewModel
 
         private void ExecuteBorrowCommand(object parameter)
         {
+
             if (parameter is Books book)
             {
+
                 var userInfoWindow = new UserInfoWindow(book);
                 userInfoWindow.Show();  
                 
@@ -93,9 +105,6 @@ namespace LMSFrontend.ViewModel
        
 
 
-        protected virtual void OnPropertyChanged(string propertyName)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
+        
     }
 }

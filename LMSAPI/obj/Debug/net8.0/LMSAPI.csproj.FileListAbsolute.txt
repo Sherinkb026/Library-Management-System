@@ -148,6 +148,7 @@ C:\Programmer\CYPHERON TECHNOLOGIES\repos\LMS\LMSAPI\obj\Debug\net8.0\LMSAPI.Ass
 C:\Programmer\CYPHERON TECHNOLOGIES\repos\LMS\LMSAPI\obj\Debug\net8.0\LMSAPI.AssemblyInfo.cs
 C:\Programmer\CYPHERON TECHNOLOGIES\repos\LMS\LMSAPI\obj\Debug\net8.0\LMSAPI.csproj.CoreCompileInputs.cache
 C:\Programmer\CYPHERON TECHNOLOGIES\repos\LMS\LMSAPI\obj\Debug\net8.0\LMSAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Programmer\CYPHERON TECHNOLOGIES\repos\LMS\LMSAPI\obj\Debug\net8.0\LMSAPI.sourcelink.json
 C:\Programmer\CYPHERON TECHNOLOGIES\repos\LMS\LMSAPI\obj\Debug\net8.0\scopedcss\bundle\LMSAPI.styles.css
 C:\Programmer\CYPHERON TECHNOLOGIES\repos\LMS\LMSAPI\obj\Debug\net8.0\staticwebassets.build.json
 C:\Programmer\CYPHERON TECHNOLOGIES\repos\LMS\LMSAPI\obj\Debug\net8.0\staticwebassets.development.json
